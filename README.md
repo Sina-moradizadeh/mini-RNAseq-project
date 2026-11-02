@@ -26,19 +26,48 @@ The workflow demonstrates fundamental steps involved in transcriptomic data anal
 
 **Dataset Source:** [GSE68086 – NCBI GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE68086)
 
-```
+# RNA-seq Gene Expression Analysis – GSE68086
 
-## Results and Visualization
+**An educational RNA-seq data analysis project using R and Bioconductor.**
 
-The analysis results and generated figures are organized in the `results/` directory.
+---
 
-Representative visualizations may include:
+## Overview
 
-- Sample distribution and quality assessment
-- Principal Component Analysis (PCA)
-- Differential expression plots
-- Gene expression heatmaps
-- Functional enrichment plots
+This repository contains an educational bioinformatics project focused on RNA-seq gene expression data analysis using the publicly available dataset **GSE68086** from the NCBI Gene Expression Omnibus (GEO).
+
+The project was developed to gain practical experience with RNA-seq data processing, quality assessment, differential gene expression analysis, and biological interpretation using R and Bioconductor tools.
+
+The workflow demonstrates fundamental steps involved in transcriptomic data analysis, from dataset acquisition to downstream functional analysis.
+
+---
+
+## Dataset
+
+| Feature | Description |
+|---|---|
+| Database | NCBI Gene Expression Omnibus (GEO) |
+| GEO Accession | GSE68086 |
+| Data Type | RNA-seq |
+| Organism | Check GEO record |
+| Analysis Type | Transcriptomic Analysis |
+
+**Dataset Source:** [GSE68086 – NCBI GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE68086)
+
+---
+
+## Analysis Workflow
+
+The project follows a step-by-step RNA-seq analysis workflow:
+
+1. Dataset retrieval and data exploration
+2. Quality assessment of expression data
+3. Data preprocessing
+4. Gene annotation
+5. Differential gene expression analysis
+6. Data visualization
+7. Functional enrichment analysis
+8. Biological interpretation
 
 ---
 
